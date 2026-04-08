@@ -1,16 +1,16 @@
 :root {
-  --bg: #2f4f59;
-  --bg-soft: #3f6570;
-  --text: #18313a;
+  --bg: #0b1120;
+  --bg-soft: #111a2f;
+  --text: #0f172a;
   --text-light: #e2e8f0;
   --muted: #64748b;
-  --primary: #39d744;
-  --primary-dark: #2fbe39;
+  --primary: #d97706;
+  --primary-dark: #b45309;
   --surface: #ffffff;
-  --surface-alt: #f2f7f5;
+  --surface-alt: #f8fafc;
   --border: #e2e8f0;
   --radius: 16px;
-  --shadow: 0 12px 30px rgba(24, 49, 58, 0.14);
+  --shadow: 0 12px 30px rgba(15, 23, 42, 0.15);
 }
 
 * {
@@ -45,7 +45,7 @@ img {
   top: 0;
   background: rgba(255, 255, 255, 0.96);
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid #d6e5df;
+  border-bottom: 1px solid var(--border);
   z-index: 50;
 }
 
@@ -58,7 +58,7 @@ img {
 }
 
 .brand img {
-  height: 56px;
+  height: 42px;
   width: auto;
 }
 
@@ -66,11 +66,11 @@ img {
   display: flex;
   gap: 1.2rem;
   font-weight: 500;
-  color: #26434c;
+  color: #1e293b;
 }
 
 .main-nav a:hover {
-  color: #2fbe39;
+  color: var(--primary);
 }
 
 .btn {
@@ -86,7 +86,7 @@ img {
 
 .btn-primary {
   background: var(--primary);
-  color: #0f2d16;
+  color: #fff;
 }
 
 .btn-primary:hover {
@@ -94,21 +94,21 @@ img {
 }
 
 .btn-outline {
-  border-color: #c9ddd5;
+  border-color: #cbd5e1;
 }
 
 .btn-outline:hover,
 .btn-light:hover {
-  border-color: #6ea89e;
+  border-color: #94a3b8;
 }
 
 .btn-light {
-  border-color: #cde3d8;
+  border-color: #d1d5db;
   background: #fff;
 }
 
 .hero {
-  background: radial-gradient(circle at top right, #5a7d87 0%, var(--bg) 52%);
+  background: radial-gradient(circle at top right, #1e293b 0%, var(--bg) 45%);
   color: var(--text-light);
   padding: 4.5rem 0 3rem;
 }
@@ -124,7 +124,7 @@ img {
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-size: 0.8rem;
-  color: #39d744;
+  color: #f59e0b;
   font-weight: 700;
 }
 
@@ -140,7 +140,7 @@ h1 {
 }
 
 .lead {
-  color: #e6f2ed;
+  color: #cbd5e1;
   max-width: 60ch;
 }
 
@@ -159,7 +159,7 @@ h1 {
 }
 
 .hero-card {
-  background: rgba(226, 245, 236, 0.14);
+  background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: var(--radius);
   padding: 1.2rem;
@@ -171,16 +171,16 @@ h1 {
 }
 
 .fleet-list article {
-  background: rgba(240, 252, 246, 0.18);
+  background: rgba(255, 255, 255, 0.06);
   padding: 0.7rem;
   border-radius: 10px;
 }
 
 .trust-strip {
-  background: #365863;
-  color: #e6f2ed;
-  border-top: 1px solid #4a727d;
-  border-bottom: 1px solid #4a727d;
+  background: #111827;
+  color: #cbd5e1;
+  border-top: 1px solid #1f2937;
+  border-bottom: 1px solid #1f2937;
 }
 
 .trust-items {
@@ -217,7 +217,7 @@ h1 {
 .about-panel ul {
   margin: 0;
   padding-left: 1rem;
-  color: #39555f;
+  color: #334155;
 }
 
 .service-grid {
@@ -235,7 +235,7 @@ h1 {
 }
 
 .card p {
-  color: #3f5f68;
+  color: #475569;
 }
 
 .gallery-grid {
@@ -261,7 +261,7 @@ h1 {
 .gallery-grid figcaption {
   padding: 0.8rem;
   font-size: 0.95rem;
-  color: #39555f;
+  color: #334155;
 }
 
 .contact-grid {
@@ -284,7 +284,7 @@ h1 {
   display: grid;
   gap: 0.4rem;
   font-weight: 600;
-  color: #26434c;
+  color: #1e293b;
 }
 
 .contact-form input,
@@ -292,20 +292,20 @@ h1 {
 .contact-form textarea {
   font: inherit;
   padding: 0.65rem 0.75rem;
-  border: 1px solid #c9ddd5;
+  border: 1px solid #cbd5e1;
   border-radius: 10px;
 }
 
 .contact-form input:focus,
 .contact-form select:focus,
 .contact-form textarea:focus {
-  outline: 2px solid #74e27b;
-  border-color: #39d744;
+  outline: 2px solid #fdba74;
+  border-color: #fb923c;
 }
 
 .site-footer {
-  background: #2d4e58;
-  color: #e6f2ed;
+  background: #0f172a;
+  color: #cbd5e1;
 }
 
 .footer-wrap {
