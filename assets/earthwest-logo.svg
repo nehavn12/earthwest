@@ -1,0 +1,24 @@
+<svg width="420" height="120" viewBox="0 0 420 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">Earthwest Civil logo</title>
+  <desc id="logoDesc">Stylized green earthwork arcs with Earthwest Civil text.</desc>
+  <rect width="420" height="120" rx="16" fill="#4E6F78"/>
+
+  <g transform="translate(12,10)" stroke="#39D744" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.98">
+    <path d="M0 86 C 10 48, 38 22, 74 14"/>
+    <path d="M10 86 C 18 52, 44 28, 80 20"/>
+    <path d="M20 86 C 28 56, 50 34, 86 26"/>
+    <path d="M30 86 C 36 60, 56 40, 92 32"/>
+    <path d="M40 86 C 44 66, 62 46, 98 38"/>
+  </g>
+
+  <g transform="translate(74,20)" stroke="#39D744" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.98">
+    <path d="M0 60 C 24 44, 44 18, 40 0"/>
+    <path d="M16 68 C 44 48, 66 22, 64 0"/>
+    <path d="M34 74 C 62 54, 88 28, 90 4"/>
+    <path d="M52 80 C 82 58, 110 34, 116 10"/>
+    <path d="M70 86 C 102 64, 132 42, 140 18"/>
+  </g>
+
+  <text x="204" y="63" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="500">Earthwest</text>
+  <text x="204" y="98" fill="#39D744" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="500">Civil</text>
+</svg>
